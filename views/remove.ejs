@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove a Post</title>
+</head>
+<body>
+    <form action="/posts/del/<%=post.id%>?_method=DELETE" method="POST">
+        <h1>Remove this post</h1>
+        <h2>ID: <%=post.id%></h2>
+        <h2>ID: <%=post.username%></h2>
+        <h2>ID: <%=post.content%></h2>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
